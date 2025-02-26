@@ -1,0 +1,67 @@
+.leftSidebar {    
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 40px 0;
+    width: 240px;
+    height: 100dvh;
+    color: white;
+    background-color: #1E202C;
+    gap: 50px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+.leftSidebar .logo {
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.leftSidebar ul  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 90%;
+    color: #9397BA;
+}
+.leftSidebar ul li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 12px 0 13px 30px ;
+    width: 100%;
+    gap: 8px;
+    cursor: pointer;
+
+}
+.leftSidebar ul li:hover {
+    font-weight: bold;
+}
+.leftSidebar ul li .homeIcon{
+    /* outline: 1px solid red; */
+    /* height: 23px; */
+    margin-top: -3px;
+    font-size: 20px;
+}
+.leftSidebar ul li p {
+    /* outline: 1px solid red; */
+    height: 20px;
+
+}
+.leftSidebar a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    transform: translateX(-50%);
+    color: #9397BA;
+}
+.active {
+
+    background-color: #13141C;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}

@@ -1,0 +1,63 @@
+.wishListBody {
+    height: 100vh;
+    padding: 10%;
+    width: 100%;
+    background-color: var(--PrimaryColor);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+}
+/* .FTCardContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+} */
+
+.wishListCard {
+    background: #101118; 
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.2s;
+    display: flex; 
+    flex-direction: column;
+    height: max-content;
+}
+
+.wishListCard:hover {
+    transform: scale(1.01);
+}
+
+.wishListImage {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.wishListCardContent {
+    padding: 15px; 
+    flex: 1; /* Allow content area to grow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    /* height: 200px; */
+}
+
+.wishListCardName {
+    font-size: 12px; 
+    margin: 0; 
+    font-weight: bold;
+
+}
+
+.wishListViewCount {
+    font-style: italic; 
+    color: #ccc; 
+    opacity: 0.76; 
+}
+

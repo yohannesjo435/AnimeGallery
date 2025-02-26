@@ -1,0 +1,51 @@
+.card {
+    background: #302b2b;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: start;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    width: 300px;
+}
+/* .card:hover {
+    transform: scale(1.05);
+} */
+
+.card-image {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+}
+
+.card-content div{
+    /* display: flex; */
+    padding: 0 12px;
+}
+
+.card-name {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.view-count {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.wishlist-button {
+    padding: 6px 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 12px;
+}
+
+.wishlist-button:hover {
+    background-color: #0056b3;
+}
