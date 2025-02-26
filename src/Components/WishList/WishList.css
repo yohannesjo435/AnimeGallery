@@ -1,5 +1,5 @@
 .wishListBody {
-    height: 100vh;
+    height: max-content;
     padding: 10%;
     width: 100%;
     background-color: var(--PrimaryColor);

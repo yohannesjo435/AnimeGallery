@@ -21,7 +21,7 @@ export default function Header({handleOnChange, searchedAnime, setAnimeName}) {
 
         <div className='watchListWrapper'>
             <TbMovie />
-            <Link to="wishlist">
+            <Link to="wishlist" className='wishListLink'>
                 Favourite
             </Link>
         </div>
